@@ -5,7 +5,7 @@ Axios internally use fetch only.
 No need to parse data as we do in fetch(url) method.
 Using axios we get direct data.
 
-<h3>Sending headers with axios request :<h3>
+<h3>Sending headers with axios request :</h3>
 <ul>
 <li>const config = { headers: { Accept : "application/json" }};</li>
 <li>let res = await axios.get(url,config);</li>
